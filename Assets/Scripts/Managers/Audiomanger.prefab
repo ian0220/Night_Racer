@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3675546726178182135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3675546726178182134}
+  - component: {fileID: 933066903716143204}
+  m_Layer: 0
+  m_Name: Audiomanger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3675546726178182134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3675546726178182135}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.014486144, y: 3.8756742, z: -0.738037}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &933066903716143204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3675546726178182135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4982fd3900bcb1d4db1d336d6f400113, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  M_Sounds:
+  - M_Name: BackGround
+    M_Clip: {fileID: 8300000, guid: 70baa0d678ba0c24ab398656e841701b, type: 3}
+    M_Volume: 1
+    M_Pitch: 1.03
+    M_Loop: 1
+    M_source: {fileID: 0}
+  - M_Name: Aftellen
+    M_Clip: {fileID: 8300000, guid: c12fe4170c5952f4baf1f7e54abc78dc, type: 3}
+    M_Volume: 0
+    M_Pitch: 0
+    M_Loop: 0
+    M_source: {fileID: 0}
+  - M_Name: Car
+    M_Clip: {fileID: 8300000, guid: e300e1ff27f83fc468f77bd1aa631324, type: 3}
+    M_Volume: 1
+    M_Pitch: 0
+    M_Loop: 1
+    M_source: {fileID: 0}
+  - M_Name: DoIsee
+    M_Clip: {fileID: 8300000, guid: 4b2eb3ba2eb0cd74a983b39547589a1e, type: 3}
+    M_Volume: 0
+    M_Pitch: 0
+    M_Loop: 0
+    M_source: {fileID: 0}
+  - M_Name: NewHighScore
+    M_Clip: {fileID: 8300000, guid: 9c7b19c5164ddc249b18fa89cb9c5772, type: 3}
+    M_Volume: 1
+    M_Pitch: 0
+    M_Loop: 0
+    M_source: {fileID: 0}
+  - M_Name: Takingyourtime
+    M_Clip: {fileID: 8300000, guid: 21430504498189046b53dca3c88fda3a, type: 3}
+    M_Volume: 0.892
+    M_Pitch: 0
+    M_Loop: 0
+    M_source: {fileID: 0}
